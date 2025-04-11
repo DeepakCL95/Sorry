@@ -1,6 +1,16 @@
 {
-  "homepage": "https://yourusername.github.io/Sorry",
+  "name": "sorry",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://DeepakCL95.github.io/Sorry",
+  "dependencies": {
+ 
+  },
   "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   }
